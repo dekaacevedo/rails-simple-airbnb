@@ -8,7 +8,7 @@
 <div class="d-flex justify-content-between flex-wrap">
   <% @flats.each do |flat| %>
     <div class="card" style="width: 20rem;">
-      <%= image_tag "flat1.jpg", alt: "alttext", class: "card-img-top" %>
+      <%= image_tag "#{flat.image}", alt: "alttext", class: "card-img-top" %>
       <div class="">
         <div class="bg-light p-4">
           <h5 class=""><%= flat.name %></h5>

@@ -1,7 +1,8 @@
 <%= simple_form_for flat do |f| %>
-  <%= f.input :name, class: 'p-3' %>
+  <%= f.input :name %>
   <%= f.input :address %>
   <%= f.input :description %>
+  <%= f.input :image %>
   <%= f.input :number_of_guests %>
   <%= f.input :price_per_night %>
   <%= f.button :submit, class: 'btn btn-primary' %>
